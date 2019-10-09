@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+
+
+.ghost-button-semi-transparent {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
+body {
+  color: #fff;
+  background: #000 url(img/bg.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font: 300 18px/22px "Raleway", sans-serif;
+}
+
+/* Typography */
+h1, h2 {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+}
+h1 {
+  font-size: 54px;
+  line-height: 65px;
+  letter-spacing: 0.1em;
+}
+h2 {
+  margin: 40px auto 10px auto;
+  font-size: 27px;
+  line-height: 33px;
+}
+
+/* Layout */
+.container-g {
+  width: 90%;
+  max-width: 960px;
+  margin: 50px auto 50px auto;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 420px) {
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
