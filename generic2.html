@@ -60,7 +60,7 @@
           </li> -->
           <!-- End Item With Sub-->
           <!-- <li><a href="#service">Events</a></li> -->
-          <li><a href="/////sponsor.html">Sponsors</a></li>
+          <li><a href="sponsor.html">Sponsors</a></li>
           <li><a href="events.html">Clubs & Events</a></li>
           <li><a href="proshows.html">Proshows</a></li>
           <li><a href="til.html">Team</a></li>
@@ -121,12 +121,28 @@ var x = document.getElementById("situation");
     x.style.display = "none";
  		 }
 
+ 		var x = document.getElementById("pradarshani");
+ 	 if (localStorage.getItem("storageName")=="pradarshani"){
+   		 x.style.display = "block";
+ 		 } else {
+    x.style.display = "none";
+ 		 }
+
+ 		 var x = document.getElementById("spotphoto");
+ 	 if (localStorage.getItem("storageName")=="spotphoto"){
+   		 x.style.display = "block";
+ 		 } else {
+    x.style.display = "none";
+ 		 }
+
  		 var x = document.getElementById("rapbattle");
  	 if (localStorage.getItem("storageName")=="rapbattle"){
    		 x.style.display = "block";
  		 } else {
     x.style.display = "none";
  		 }
+
+ 		 
 	} 
 </script>
 					<div id="main" class="alt">
@@ -272,10 +288,10 @@ var x = document.getElementById("situation");
 										<h1 class="fnt">Rules</h1>
 									</header></p>
 									<p><ul style="list-style-type: circle; color: #f2f2f2" >
-										<li><h4 class="fnt2">Non-performing cosplayers are requested to register for this competition separately.</h4></li>
-										<li><h4 class="fnt2">All the performing cosplayers are eligible for this title.</h4></li>
-										<li><h4 class="fnt2">More preference will be given to the handcrafted and resemblance of costumes to the character.</h4></li>
-										
+										<li><h4 class="fnt2">It is a closed event.(Only Neristian)</h4></li>
+										<li><h4 class="fnt2">A time limit of 10 minutes will be provided. </h4></li>
+										<li><h4 class="fnt2">The contestants can use either Hindi or English but should refrain from using Hinglish. </h4></li>
+										<li><h4 class="fnt2">Attention must be paid to maintain a bit of decency by not using slangs or any kind of vulgar content.</h4></li>
 									</ul></p>
 								</div>
 							</section>
@@ -302,10 +318,59 @@ var x = document.getElementById("situation");
 								</div>
 							</section>
 
+							<section id="pradarshani">
+								<div class="inner">
+									<header class="major">
+										<h1 class="fnt">Pradarshani</h1>
+									</header>
+									<span class="image main"><img src="img/pradarshani.jpg" alt="" /></span>
+									<p><header class="major">
+										<h1 class="fnt">Description</h1>
+									</header></p>
+									<p><h4 class="fnt2">Pradarshini is an art exhibition, where your skills will be out in the public and the public will get to rate your photography skills. The photographs will be segregated into various genres namely portrait, monochrome, landscape, night photography etc. </h4></p>
+									<p><header class="major">
+										<h1 class="fnt">The event contains four subcategories</h1>
+									</header></p>
+									<p><ul style="list-style-type: circle; color: #f2f2f2" >
+										<li><h4 class="fnt2"><b>Landscape:</b> Landscape photographs typically capture the presence of nature but can also focus on man-made features or disturbances of landscapes.</h4></li>
+										<li><h4 class="fnt2"><b>Monochrome:</b> It includes all forms of black-and-white photography, which produce images containing tones of neutral grey ranging from black to white.</h4></li>
+										<li><h4 class="fnt2"><b>Portrait:</b> Portrait photograph is a photograph of a person or group of people that captures the personality of the subject by using effective lighting, backdrops, and poses.</h4></li>
+										<li><h4 class="fnt2"><b>Macro:</b> Macro photography, is extreme close-up photography, usually of very small subjects and living organisms like insects, in which the size of the subject in the photograph is greater than life size.</h4></li>
+									</ul></p>
+									<p>
+										
+										<header class="major"><h1 class="fnt">Note:</h1></header> <h4 class="fnt2">Participants are only allowed to make minor edits to their work and should be able to send the original picture if asked. Only Basic enhancements such as sharpening, contrast, brightness, adjustment and simple cropping is allowed.</h4>
+									</p>
+								</div>
+							</section>
+							<section id="spotphoto">
+								<div class="inner">
+									<header class="major">
+										<h1 class="fnt">Spot Photography</h1>
+									</header>
+									<span class="image main"><img src="img/spotphoto.jpg" alt="" /></span>
+									<p><header class="major">
+										<h1 class="fnt">Description</h1>
+									</header></p>
+									<p><h4 class="fnt2">In this competition the participants will be taken to a spot location, and they will have to use their witty shutterbug skills and capture the best photograph using the props available on the location. </h4></p>
+									<p><header class="major">
+										<h1 class="fnt">Rules:</h1>
+									</header></p>
+									<p><ul style="list-style-type: circle; color: #f2f2f2" >
+										<li><h4 class="fnt2"> All participants have to click photos on the same spot.</h4></li>
+										<li><h4 class="fnt2">The photo could be of anything. </h4></li>
+										<li><h4 class="fnt2">The participants can click as many photos from the spot but they need to      submit only 2 of their best photos.</h4></li>
+										<li><h4 class="fnt2">The participants can bring their own camera.</h4></li>
+										<li><h4 class="fnt2">No post processing is allowed.</h4></li>
+									</ul></p>
+								</div>
+							</section>
+
+
 							<section id="rapbattle">
 								<div class="inner">
 									<header class="major">
-										<h1 class="fnt">Rap Battle</h1>
+										<h1 class="fnt">Rap Nation</h1>
 									</header>
 									<span class="image main"><img src="img/events/rapbattle.jpg" alt="" /></span>
 									<p><header class="major">
@@ -331,7 +396,7 @@ var x = document.getElementById("situation");
 								<div class="inner">
 									
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Register</a></li>
+										<li><a href="https://insider.in/sonabyss-19-oct30-2019/event" class="button next">Register</a></li>
 									</ul>
 									<footer id="footer">
 					<div class="inner">

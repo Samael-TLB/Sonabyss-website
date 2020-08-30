@@ -148,7 +148,7 @@ input, select, textarea {
 
 		}
 
-
+	
 
 		a:hover {
 			border-bottom-color: transparent;
@@ -3379,9 +3379,10 @@ input, select, textarea {
 		display: flex;
 		padding: 6em 0 2em 0 ;
 		background-image: url('cosplay2.png');
+		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 100%  100%;
+		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
@@ -3428,7 +3429,7 @@ input, select, textarea {
 			position: relative;
 			z-index: 2;
 		}
-
+		
 			#banner > .inner .image {
 				display: none;
 			}
@@ -3526,7 +3527,7 @@ input, select, textarea {
 		@media screen and (max-width: 4000px) {
 
 			#banner {
-
+				
 			}
 
 		}
@@ -3706,7 +3707,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
-
+		
 	}
 
 		#footer .copyright li {
