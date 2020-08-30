@@ -6,4 +6,4 @@ pages for the various events of our fest are presented in html files of the same
 and dependencies are simple and intuitive. The website has been designed using html, css, php and javascript
 only.</p>
 <p>The website is integrated with user registration and management. It also has vote polling capabilities.</p>
-<p>All in all the website is a complete product and can used as such.</p>
+<p>All in all the website is a complete product and can used as such for rapid development and serving.</p>
